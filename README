@@ -1,0 +1,1 @@
+source activ (./business_days/bin/activate) to enable virtual environment (done within script)
