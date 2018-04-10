@@ -52,6 +52,8 @@ if is_empty( args.a ):
 elif args.a:
     args.i = False
     args.x = False
+if args.i and args.x:
+    args.i = False
 
 wd = 0
 # datetime.isoweekday() returns 1-7 sun-sat
